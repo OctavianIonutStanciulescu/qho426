@@ -1,3 +1,4 @@
+#Combining the work i did so far
 print ("  #######")
 print ("  #  .  #")
 print ("  # --- #     Hello, I`m Beep, please choose my eyes so i can see you!")
