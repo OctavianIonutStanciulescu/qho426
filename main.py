@@ -1,7 +1,8 @@
-# #using the while repetitions
-# print("How many cables should I remove?") 
-# r1 = int(input())
-# counter = 1
-# while counter <= r1:
-#   print ("Removed cable.")
+# #using count while in a loop
+# print("How many live cables must I avoid?\n") 
+# lc = int(input())
+# counter = 0
+# while counter < lc:
 #   counter +=1
+#   print ("Avoiding...Done! {} live cables avoided!" .format(counter))
+# print("\nAll live cables have been avoided.")
