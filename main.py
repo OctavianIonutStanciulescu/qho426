@@ -1,10 +1,7 @@
-# #Using the if function for the first time
-# book =input("What type of book is this?\n")
-# if book == "adventure":
-#   print("\nI like adventure books!\n\nFinished reading book.")
-activity = input("Please enter the activity to be performed:\n")
-if activity == "calculate":
-  print("\nPerforming calculations...")
-else:
-  print("\nPerforming activity...") 
-print("\nActivity completed!")
+# # Modulus operator function
+# whole_number = int(input("Please enter a whole number:\n"))
+
+# if (whole_number%2) == 0:
+#   print ("The number {0} is an even number".format(whole_number))
+# else:
+#   print ("The number {0} is an odd number".format(whole_number))
