@@ -1,4 +1,4 @@
-#using count while in a loop
+#using counter to display ascii while in a loop
 print("How many bars should be charged") 
 bar = int(input())
 counter = 0
