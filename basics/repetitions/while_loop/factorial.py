@@ -1,4 +1,4 @@
-#calculating multiple user inputs in a while loop
+#calculating the factorial of user input in a while loop
 print("Please anter a number") 
 x = int(input())
 print("\n")
