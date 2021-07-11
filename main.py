@@ -1,11 +1,8 @@
-#using one loop nested in another
-print("How many rows should I have?") 
-a = int(input())
-print ("How many columns should I have?")
-b = int(input())
-c = ":-)"
-for count in range(0,a,1):
-  for number in range (0,b,1):
-    print (c, end ="")
-  print()
-print ("Done!")
+# Ask user for phrase
+print("What phrase do you see?")
+a = input()
+print("\nReversing...")
+b = ""
+for c in a:
+  b = c + b
+print("\nThe phrase is: ",b)
