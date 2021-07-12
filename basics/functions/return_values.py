@@ -1,4 +1,4 @@
-#use of multiple user defined functions
+#use of multiple user defined functions with return values
 def sum_wieghts(w1, w2): 
   return (w1+w2)
 
