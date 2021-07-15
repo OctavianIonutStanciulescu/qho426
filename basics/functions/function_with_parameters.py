@@ -1,8 +1,9 @@
 #using a user-defined function with multiple parameters.
-def climb_ladder(r, c): 
-  if r > c:
-    print("Still some way to go!")
-  else:
-    print ("We are almost there!")
-climb_ladder(5, 2)
-climb_ladder(2, 5)
+def run():
+  def climb_ladder(r, c): 
+    if r > c:
+      print("Still some way to go!")
+    else:
+      print ("We are almost there!")
+  climb_ladder(5, 2)
+  climb_ladder(2, 5)

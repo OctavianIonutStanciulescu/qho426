@@ -1,6 +1,3 @@
-import random as r
-from math import ceil, log
-
 def calc_area(height = 2, base = 1):
 
   area = 0.5*height*base

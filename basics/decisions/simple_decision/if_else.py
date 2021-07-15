@@ -1,7 +1,8 @@
 #Using the if and else function for the first time
-activity = input("Please enter the activity to be performed:\n")
-if activity == "calculate":
-  print("\nPerforming calculations...")
-else:
-  print("\nPerforming activity...") 
-print("\nActivity completed!")
+def run():
+  activity = input("Please enter the activity to be performed:\n")
+  if activity == "calculate":
+    print("\nPerforming calculations...")
+  else:
+    print("\nPerforming activity...") 
+  print("\nActivity completed!")
