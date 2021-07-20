@@ -1,22 +1,33 @@
+
+temperatures = (19, 23, 21, 21, 20, 18, 22)
+
+# Concatenate tuples (this creates a new tuple)
+all_temperatures = temperatures + (20, 21)
+print(all_temperatures)
+
+# Repeat a tuple
+print(temperatures * 2)
+
+# Check membership of a tuple
+print(20 in temperatures)
+
+print("The lowest temperature is: {}".format(min(temperatures)))
+print("The highest temperature is: {}".format(max(temperatures)))
+
+
+
+
+
+
+
+
 #populating a lists with user input
 
-def directions():
-  l = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-  return l
-
-def menu():
-  x = directions()
-  print("Please enter a direction:")
-  for i in range(len(x)):
-    print("{}: {}.".format(i, x[i]))
-  i = int(input())
-  print()
-  return (x[i])
+def likelihood():
+  likelihoods = (50, 38, 27, 99, 4)
+  return (min(likelihoods))
 
 def run():
-  print("Working out escape route...\n")
-  route = []
-  for count in range (5):
-    route.append(menu())    
-  print(route)
+  m = likelihood()
+  print("Minimum likelihood of falling: {}%".format(m))
 run()
