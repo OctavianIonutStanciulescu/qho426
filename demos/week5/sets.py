@@ -32,7 +32,7 @@ print(colors.difference(set1))
 
 #Comprehension
 numbers = {n for n in range(101) if n%2 == 0}
-l_numbers = [n for n in range(101) if n%2 == 1]
+l_numbers = {n for n in range(101) if n%2 == 1}
 print(numbers)
 print(l_numbers)
 
